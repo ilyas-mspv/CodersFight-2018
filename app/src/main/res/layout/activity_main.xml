@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AbsoluteLayout
+        android:id="@+id/absoluteLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/users"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/r3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_x="171dp"
+            android:layout_y="119dp"
+            app:srcCompat="@drawable/map_area_3_normal" />
+
+        <ImageView
+            android:id="@+id/r4"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_x="77dp"
+            android:layout_y="185dp"
+            app:srcCompat="@drawable/map_area_4_normal" />
+
+        <ImageView
+            android:id="@+id/r2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_x="-14dp"
+            android:layout_y="99dp"
+            app:srcCompat="@drawable/map_area_2_normal" />
+
+        <ImageView
+            android:id="@+id/r1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_x="-24dp"
+            android:layout_y="264dp"
+            app:srcCompat="@drawable/map_area_1_normal" />
+
+        <ImageView
+            android:id="@+id/r5"
+            android:layout_width="207dp"
+            android:layout_height="176dp"
+            android:layout_x="151dp"
+            android:layout_y="275dp"
+            app:srcCompat="@drawable/map_area_5_normal" />
+
+
+    </AbsoluteLayout>
+
+    <LinearLayout
+        android:id="@+id/users"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+        <!--  user1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#73e678"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/user_id1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/circleImageView"
+                android:layout_toRightOf="@+id/circleImageView"
+                android:text="USER1"
+                android:textColor="#ffffff"
+                android:gravity="center" />
+
+
+        </LinearLayout>
+
+        <!--  user2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/red"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/user_id2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/circleImageView"
+                android:layout_toRightOf="@+id/circleImageView"
+                android:text="USER2"
+                android:textColor="#ffffff"
+                android:gravity="center" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_below="@+id/users"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/logs_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="logs"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:text="Steps: 0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/steps_counter_game"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <Button
+        android:text="EXIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="248dp"
+        android:layout_y="79dp"
+        android:id="@+id/finish_test"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="59dp" />
+
+
+    <!--</android.support.v7.widget.CardView>-->
+
+</RelativeLayout>

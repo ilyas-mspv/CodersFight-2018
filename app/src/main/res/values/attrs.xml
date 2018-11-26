@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MapItemView">
+        <attr name="isCapital" format="boolean"/>
+        <attr name="zoneColor" format="enum">
+            <enum name="green" value="-16711936"/>
+            <enum name="red" value="-65536"/>
+            <enum name="none" value="0"/>
+        </attr>
+        <attr name="whoseZone" format="enum">
+            <enum name="mine" value="0"/>
+            <enum name="enemy" value="1"/>
+        </attr>
+        <attr name="image" format="reference"/>
+    </declare-styleable>
+
+
+
+</resources>

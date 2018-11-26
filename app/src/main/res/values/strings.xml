@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Coders Fight</string>
+    <string name="title_activity_rating">Рейтинг</string>
+    <string name="title_queue_activity">Чират</string>
+    <string name="title_topics_activity">Темалар</string>
+    <string name="title_provide_question">Provide Question</string>
+    <string name="dialog_internet_error">Интернетка ялгануыгызны тикшерегез</string>
+    <string name="dialog_error">Нәрсәдер дөрес түгел.Соңрак керегез.</string>
+    <string name="dialog_load_type">Йөкләү..</string>
+    <string name="dialog_ok_button">Аңладым</string>
+
+
+    <!-- AUTH -->
+
+    <string name="email_error">Ялгыш email</string>
+    <string name="password_error">Паролегыз 4 тамгадан да ким булырга тиеш түгел</string>
+    <string name="server_error"> Сервер белен тоташтыру барып чыкмады \n </string>
+    <string name="user_error">Кулланучы инде теркәлгән</string>
+    <string name="user_error_msg">Керергә тырышыгыз яки икенче аккаунт булдырыгыз</string>
+
+    <!-- SOCIAL APPS API CODES -->
+    <integer name="com_vk_sdk_AppId">6038053</integer>
+    <string name="facebook_app_id" translatable="false">115741459118602</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb115741459118602</string>
+
+
+    <!-- PROFILE -->
+    <string name="btn_play_profile">Уйнарга!</string>
+    <string name="btn_knowledge_profile">Мәгълүмат</string>
+    <string name="btn_rating_profile">Рейтинг</string>
+    <string name="btn_provide_ques_profile">Provide Question</string>
+
+    <!-- QUEUE -->
+    <string name="btn_random_player_queue"> Очраклы уенчы белән уйнарга</string>
+    <string name="text_recommend_queue">Сезне сайлаганны көтегез \n яки \n исемлектәге уенчыны сайлагыз: </string>
+    <string name="card_text_question_queue">Башлыйсызмы?</string>
+    <string name="card_text_request_queue"> сезнең белән уйнарга тели!</string>
+    <string name="dialog_request_queue">Game request</string>
+    <string name="dialog_request_msg_queue"> сезнең белән уйнарга тели.Башлыйсызмы?</string>
+    <string name="dialog_loading_queue">Картаны йөкләү..</string>
+
+    <!-- GAME -->
+    <string name="text_move_game"> йөреш!</string>
+    <string name="text_steps_game"> Steps: 0</string>
+
+    <!-- RESULTS -->
+    <string name="text_winner">Сез җиңдегез</string>
+    <string name="text_loser">Сез җиңелдегез</string>
+
+
+    <!-- STATISTICS -->
+
+    <string name="stats_text_rating">Рейтинг: </string>
+    <string name="stats_text_played_times">Уеннар саны: </string>
+    <string name="stats_text_winner_times">Җиңүләр: </string>
+    <string name="stats_text_answered_questions">Бирелгән җаваплар: </string>
+    <string name="stats_text_correct_answers">Дөрес җаваплар: </string>
+    <string name="title_activity_train_topics" translatable="false">TrainTopicsActivity</string>
+
+    <string name="title_activity_train_game">TrainGame</string>
+    <string name="dummy_button" translatable="false">Dummy Button</string>
+    <string name="dummy_content" translatable="false">DUMMY\nCONTENT</string>
+    <string name="title_activity_settings" translatable="false">Settings</string>
+
+    <!-- SETTINGS -->
+    <string name="pref_header_general" translatable="false">General</string>
+    <string name="pref_title_social_recommendations" translatable="false">Enable recommendations</string>
+    <string name="pref_description_social_recommendations" translatable="false"> </string>
+    <string name="title_activity_train_results" translatable="false">TrainResultsActivity</string>
+
+    <string name="dialog_train_mode_title">Катлаулылык</string>
+    <string name="dialog_train_mode_1">Җиңел</string>
+    <string name="dailog_train_mode_2">Уртача</string>
+    <string name="dailog_train_mode_3">Авыр</string>
+
+    <string name="train_mode_name">Күнегү Режимы</string>
+
+    <string name="play_name">Уйнарга!</string>
+    <string name="knowledge_name">Мәгълүмат</string>
+    <string name="rating_name">Рейтинг</string>
+
+    <string name="knowledge_topic_item_status_disabled">Ябык</string>
+    <string name="knowledge_topic_item_status_no_connection">Соңрак карагыз әле</string>
+    <string name="train_mode_title">Кабатлау өчен темалар сайлагыз</string>
+    <string name="train_mode_rule">Ким дигәндә ике тема сайларга кирәк</string>
+    <string name="game_no_available">Керү мөмкин түгел</string>
+    <string name="game_back_press">Чыгу өчен ике тапкыр басыгыз</string>
+    <string name="game_forward_answer">Җавап көтәбез</string>
+    <string name="queue_status">Сез берүзегез генә уйный алмыйсыз</string>
+    <string name="queue_game_request">Game Request</string>
+    <string name="queue_user_refuse">сезнең белән уйнарга теләми.</string>
+    <string name="queue_game_offer">сезнең белән уйнарга тели.Башлыйсызмы?</string>
+    <string name="queue_no">Юк</string>
+    <string name="reset_password_try_login">Керергә тырышыгыз</string>
+
+</resources>
